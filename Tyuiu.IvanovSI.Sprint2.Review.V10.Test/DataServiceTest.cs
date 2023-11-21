@@ -10,8 +10,8 @@ namespace Tyuiu.IvanovSI.Sprint2.Review.V10.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double y = 2;
-            double x = 1;
+            double y = 0.1;
+            double x = 0.2;
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
             Assert.AreEqual(wait, res);
